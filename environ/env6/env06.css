@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+
+  background-image: url("https://www.metroparks.net/wp-content/uploads/2017/06/1080p_HBK_autumn-morning_GI.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: lightgreen;
+}
+
+#forest-text {
+  color: white;
+  font-weight: bold;
+}
+
+#message {
+  display: none;
+}
+.day {
+  filter: brightness(1.2);
+}
+
+.night {
+  filter: brightness(0.4);
+}
