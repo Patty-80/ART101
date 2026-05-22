@@ -28,3 +28,15 @@ $("#mood-btn").click(function () {
         "<p>" + environmentRules.rule3 + "</p>"
     );
 });
+
+$("#day-btn").click(function () {
+    $("body").removeClass("night-mode").addClass("day-mode");
+    $("#day-btn").addClass("active");
+    $("#night-btn").removeClass("active");
+});
+
+$("#night-btn").click(function () {
+    $("body").removeClass("day-mode").addClass("night-mode");
+    $("#night-btn").addClass("active");
+    $("#day-btn").removeClass("active");
+});

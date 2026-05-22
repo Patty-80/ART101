@@ -1,16 +1,57 @@
+```
+
+```css
 body {
-    background-image: url("https://www.metroparks.net/wp-content/uploads/2017/06/1080p_HBK_autumn-morning_GI.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: #1d2b1f;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+body.day-mode {
+    background: #c9e8b8;
+    color: #1f3d21;
+}
+
+body.night-mode {
+    background: #1d2b1f;
+    color: #e6f2d2;
+}
+
+button {
+    width: 110px;
+    height: 110px;
+    padding: 0;
+    border: 2px solid #333;
+    border-radius: 0;
+    background: white;
+    color: black;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+button:hover {
+    background: #f2f2f2;
+}
+
+button.active {
+    border-color: #000;
+}
+
+button#day-btn,
+button#night-btn {
+    background: white;
+    color: black;
 }
 
 h1 {
     color: lightgreen;
 }
 
-.intro {
-    max-width: 700px;
+img {
+    width: 400px;
 }
+```
